@@ -15,7 +15,7 @@ function Header() {
     const rightSectionStyle = {
       display: "flex",
       alignItems: "center",
-      gap: "29rem",
+      gap: "28rem",
     };
   
     const searchStyle = {
@@ -28,7 +28,7 @@ function Header() {
     return (
       <div style={headerStyle}>
         <div style={leftSectionStyle}>
-          <span style={{ fontFamily: 'sans-serif', fontSize: "1.5rem", color: "#FF69B4", fontWeight: 'bold' }}>Money Lecture</span>
+          <span style={{ fontFamily: 'sans-serif', fontSize: "1.67rem", color: "#FF69B4", fontWeight: 'bold' }}>Money Lecture</span>
           
           <div style={rightSectionStyle}>
           <i className="fas fa-users" />
